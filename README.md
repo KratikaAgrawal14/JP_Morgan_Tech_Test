@@ -16,7 +16,7 @@ Entity object model contains the parameters as per the datafile.
 TradeParams conatins the trade realated costrains and implementations eg Validating working day
 SettlementConstants defines the constant configurable properties.
 
-# TO generate Amount in USD settled incoming everyday
+# To generate Amount in USD settled incoming everyday
 Class IncomingSettlement overriden method settle Transaction to populate the tradeMap
 Method settleTrasaction() calls CSVFileReader.readFile() method to read the file.
 Method readFile() method reads the file stream and calls addEntity Method to generate and add the entity to the entityList.
