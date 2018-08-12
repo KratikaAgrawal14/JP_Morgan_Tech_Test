@@ -1,10 +1,13 @@
 # JP_Morgan_Tech_Test
-# Create a report that shows
-# Amount in USD settled incoming everyday
-# Amount in USD settled outgoing everyday
-# Ranking of entities based on incoming and outgoing amount. Eg: If entity foo instructs the highest
-# amount for a buy instruction, then foo is rank 1 for outgoing
 
+# Problem statement
+Create a report that shows
+Amount in USD settled incoming everyday
+Amount in USD settled outgoing everyday
+Ranking of entities based on incoming and outgoing amount. Eg: If entity foo instructs the highest
+amount for a buy instruction, then foo is rank 1 for outgoing
+
+# Application implementation
 The starting Point of the Aplication is Application.java
 Interface TradeSettlement which defins settleTransaction() method and is implemented by below classes. 
 The Two classes OutgoingSettlement and IncomingSettlement contains the code to for incoming and outgoing trade functionaities.
