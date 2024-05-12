@@ -1,11 +1,11 @@
-# JP_Morgan_Tech_Test
+# Stoke_Trade_Management_System_Tech_Test
 
 # Problem statement
 Create a report that shows
-Amount in USD settled incoming everyday
-Amount in USD settled outgoing everyday
+Amount in USD settled incoming every day
+Amount in USD settled outgoing every day
 Ranking of entities based on incoming and outgoing amount. Eg: If entity foo instructs the highest
-amount for a buy instruction, then foo is rank 1 for outgoing
+the amount for a buy instruction, then foo is rank 1 for outgoing
 
 # Application implementation
 The starting Point of the Aplication is Application.java
